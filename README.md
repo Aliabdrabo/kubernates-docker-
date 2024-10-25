@@ -73,8 +73,6 @@ Make sure you have the following tools installed before proceeding:
   
      ```bash
      kubectl get services
-     
-  
 
 ###ingress  
 
