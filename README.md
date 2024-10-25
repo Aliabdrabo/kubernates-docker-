@@ -129,4 +129,4 @@ Make sure you have the following tools installed before proceeding:
   
 ---------------------------------  
 
-![sample todos app](https://github.com/user-attachments/assets/69aafbb1-150f-4494-99a9-13ca44e6019c)
+![sample todos app](https://github.com/user-attachments/assets/261340de-81c2-4a1c-9c7b-a12d1cc05eb2)
