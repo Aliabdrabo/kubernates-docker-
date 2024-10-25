@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:  
+      imagePullSecrets:
+      - name: myregistrykey
+      containers:
+      - name: frontend
+        image: alia153/project-reg:frontend.1 
+        ports:
+        - containerPort: 3000
+        stdin: true   
+        resources:  
+          limits:
+            memory: "1Gi"  
+            cpu: "1"  
+      

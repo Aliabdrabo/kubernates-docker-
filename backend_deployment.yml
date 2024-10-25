@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      imagePullSecrets:
+      - name: myregistrykey
+      containers:
+      - name: backend
+        image: alia153/project-reg:backend.1
+        ports:
+        - containerPort: 3000
+        env:
+        - name: MONGODB_URI
+          value: 'mongodb://mongo-service:27017/TodoApp'  # Correct value here

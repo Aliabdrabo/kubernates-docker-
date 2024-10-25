@@ -1,0 +1,15 @@
+# nginx-rolebinding.yml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: nginx-rolebinding
+  namespace: default
+subjects:
+- kind: ServiceAccount
+  name: test
+  namespace: default
+roleRef:
+  kind: Role
+  name: nginx-role
+  apiGroup: rbac.authorization.k8s.io
+
