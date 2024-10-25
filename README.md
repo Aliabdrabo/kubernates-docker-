@@ -80,13 +80,13 @@ Make sure you have the following tools installed before proceeding:
 
   1. install NGINX Ingress Controller: Set up NGINX Ingress to manage external access to services in KinD.
 
-   ```bash
-   kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+     ```bash
+     kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
 
   2. Create and Apply Ingress YAML: Write an ingress.yaml file to configure access to the Service and apply it.
 
-   ```bash
-   kubectl apply -f <ingress_name>.yaml
+     ```bash
+     kubectl apply -f <ingress_name>.yaml
 
   3. Access Application Externally: Add an entry in /etc/hosts pointing todos.local to your KinD node’s IP (use kubectl get nodes -o wide to find the IP).
 
@@ -100,8 +100,8 @@ Make sure you have the following tools installed before proceeding:
   
   - Apply ConfigMap and Secret to the cluster.
     ```bash
-   kubectl apply -f <configmap_name>.yaml
-   kubectl apply -f <secret_name>.yaml
+    kubectl apply -f <configmap_name>.yaml
+    kubectl apply -f <secret_name>.yaml
   
   - **Reference ConfigMap and Secret in Pod Configuration**: Update deployment.yaml to use these values.
   
