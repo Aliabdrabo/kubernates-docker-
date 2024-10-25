@@ -21,4 +21,7 @@ spec:
         - containerPort: 3000
         env:
         - name: MONGODB_URI
-          value: 'mongodb://mongo-service:27017/TodoApp'  # Correct value here
+          valueFrom:
+            configMapKeyRef:
+              name: backend-config  
+              key: MONGODB_URI      
