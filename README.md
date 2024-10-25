@@ -128,3 +128,5 @@ Make sure you have the following tools installed before proceeding:
   
   
 ---------------------------------  
+
+![sample todos app](https://github.com/user-attachments/assets/69aafbb1-150f-4494-99a9-13ca44e6019c)
