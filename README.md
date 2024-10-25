@@ -1,4 +1,4 @@
-
+![1-1200x675](https://github.com/user-attachments/assets/ec400512-b097-416b-a30a-7677f169837e)
 <img src="https://github.com/user-attachments/assets/4067ee5f-8511-447f-8bc0-44536e98d105" alt="Description" width="1400" height="600">
 
 # Todos App Deployment on KinD
