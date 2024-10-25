@@ -1,6 +1,7 @@
 
 ![docker & kubernates](https://github.com/user-attachments/assets/4067ee5f-8511-447f-8bc0-44536e98d105)
-<img src="[path/to/image.png](https://github.com/user-attachments/assets/4067ee5f-8511-447f-8bc0-44536e98d105)" alt="Description" width="300" height="300">
+
+<img src="https://github.com/user-attachments/assets/4067ee5f-8511-447f-8bc0-44536e98d105" alt="Description" width="300" height="300">
 
 # Todos App Deployment on KinD
 
