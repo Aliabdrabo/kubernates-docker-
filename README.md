@@ -1,3 +1,6 @@
+
+![docker & kubernates](https://github.com/user-attachments/assets/4067ee5f-8511-447f-8bc0-44536e98d105)
+
 # Todos App Deployment on KinD
 
 **This guide outlines a comprehensive approach to deploying a Kubernetes-based todos application on a KinD (Kubernetes in Docker) cluster. The process encompasses several critical steps, including creating Docker images that encapsulate the application's environment and dependencies, configuring essential Kubernetes resources such as Deployments and Services, and establishing network access via Ingress for external exposure. By following this guide, you will gain hands-on experience with containerization, Kubernetes orchestration, and networking in a local development setup. The objective is to provide a clear and systematic pathway for developers to effectively manage their applications in a microservices architecture, ensuring scalability and ease of deployment while leveraging the powerful features offered by Kubernetes and Docker. Whether you're a beginner seeking to understand the fundamentals or an experienced developer looking to streamline your workflow, this guide aims to equip you with the necessary tools and knowledge to successfully implement your todos application in a KinD environment**.
