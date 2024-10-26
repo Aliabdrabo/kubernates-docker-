@@ -78,7 +78,7 @@ Make sure you have the following tools installed before proceeding:
      ```bash
      kubectl get services
 
-###ingress  
+### ingress  
 
   1. install NGINX Ingress Controller: Set up NGINX Ingress to manage external access to services in KinD.
 
