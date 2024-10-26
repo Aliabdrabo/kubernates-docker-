@@ -6,7 +6,7 @@ metadata:
   namespace: default
 subjects:
 - kind: ServiceAccount
-  name: test
+  name: my-service-account
   namespace: default
 roleRef:
   kind: Role
